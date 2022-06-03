@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora - Alyson S.</title>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+</head>
+<body>
+
+    <div class="content">
+        <div class="container">
+            <input type="text" class="display" value="0" disabled/>
+
+            <div class="buttons">
+                <div class="buttonsContent">
+                    <div onclick="pressingFunctionButtons('c')" class="function-buttons">C</div>
+                    <div onclick="pressingFunctionButtons('*')" class="function-buttons">*</div>
+                    <div onclick="pressingFunctionButtons('/')" class="function-buttons">/</div>
+                    <div onclick="pressingFunctionButtons('<')" class="function-buttons"> < </div>
+                    <div onclick="pressingButtons(7)" class="button-single" number=7 >7</div>
+                    <div onclick="pressingButtons(8)" class="button-single" number=8>8</div>
+                    <div onclick="pressingButtons(9)" class="button-single" number=9>9</div>
+                    <div onclick="pressingFunctionButtons('+')" class="function-buttons"> + </div>
+
+                    <div onclick="pressingButtons(4)" class="button-single">4</div>
+                    <div onclick="pressingButtons(5)" class="button-single">5</div>
+                    <div onclick="pressingButtons(6)" class="button-single">6</div>
+                    <div onclick="pressingFunctionButtons('-')" class="function-buttons"> - </div>
+
+                    <div onclick="pressingButtons(1)" class="button-single">1</div>
+                    <div onclick="pressingButtons(2)" class="button-single">2</div>
+                    <div onclick="pressingButtons(3)" class="button-single">3</div>
+
+                    <div style="visibility: hidden;" class="button-single">e</div>
+                    
+                    <div onclick="pressingButtons(0)" class="button-single" id="value0button">0</div>
+                    <div onclick="pressingButtons('.')" class="button-single">.</div>
+                    <div onclick="pressingFunctionButtons('=')" class ="function-buttons" id="equalFunctionButton"> = </div>
+                </div>
+            </>
+            
+        </div>
+    </div>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
