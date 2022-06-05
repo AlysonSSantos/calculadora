@@ -16,7 +16,7 @@ body{
 }
 
 .container{
-    background: #00000041;
+    background: #1b1a1a;
     width: 22rem;
     padding: 1.5rem 1rem;
     border-radius: .5rem;
@@ -31,7 +31,7 @@ body{
 }
 
 .display{
-    background: #1a1919;
+    background: #141414;
     border-radius: .5rem;
     border: none;
     width: 86%;
@@ -70,8 +70,8 @@ body{
     background-color: #232324;
 }
 
-.button-single:hover, .function-buttons:hover, #equalFunctionButton:hover{
-    background-color: #2b2828;
+.button-single:hover, .function-buttons:hover, #equalFunctionButton:hover, #pointButton:hover{
+    background-color: #363535;
     transition: .2;
     cursor: pointer;
 }
