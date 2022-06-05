@@ -16,9 +16,9 @@
             <div class="buttons">
                 <div class="buttonsContent">
                     <div onclick="pressingFunctionButtons('c')" class="function-buttons">C</div>
-                    <div onclick="pressingFunctionButtons('*')" class="function-buttons">*</div>
-                    <div onclick="pressingFunctionButtons('/')" class="function-buttons">/</div>
-                    <div onclick="pressingFunctionButtons('<')" class="function-buttons" id="eraseButton"> < </div>
+                    <div onclick="pressingFunctionButtons('x^2')" class="function-buttons">X²</div>
+                    <div onclick="pressingFunctionButtons('srqrt')" class ="function-buttons"><img style="width: 1.2rem; height: 1.3rem;" src="media/raiz-quadrada(2).png" alt="raiz quadrada icon"></div>
+                    <div onclick="pressingFunctionButtons('<')" class="function-buttons" id="eraseButton"> <img src="media/delete(2).png" alt="delete icon"> </div>
                     <div onclick="pressingButtons(7)" class="button-single" number=7 >7</div>
                     <div onclick="pressingButtons(8)" class="button-single" number=8>8</div>
                     <div onclick="pressingButtons(9)" class="button-single" number=9>9</div>
@@ -33,11 +33,14 @@
                     <div onclick="pressingButtons(2)" class="button-single">2</div>
                     <div onclick="pressingButtons(3)" class="button-single">3</div>
 
-                    <div style="visibility: hidden;" class="button-single">e</div>
+                    <div onclick="pressingFunctionButtons('*')" class="function-buttons">*</div>
                     
+                    <div onclick="pressingFunctionButtons('/')" class="function-buttons">/</div>
                     <div onclick="pressingButtons(0)" class="button-single" id="value0button">0</div>
-                    <div onclick="pressingButtons('.')" class="button-single">.</div>
+                    <div onclick="pressingButtons('.')" class="button-single" id="pointButton">.</div>
+
                     <div onclick="pressingFunctionButtons('=')" class ="function-buttons" id="equalFunctionButton"> = </div>
+
                 </div>
             </>
             

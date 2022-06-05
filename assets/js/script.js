@@ -5,6 +5,7 @@ functionButtons = document.querySelectorAll('.function-buttons')
 var eraseButton = document.getElementById("eraseButton")
 
 const pressingButtons = (number) =>{
+    
     console.log(number);
     
     if(display.value == 0){
@@ -132,9 +133,17 @@ const pressingFunctionButtons = (attribute) =>{
             let result = eval(display.value);
             display.value = result;
         break;
+        case 'srqrt':
+            display.value = Math.sqrt(display.value);
+        break;
+        case 'x^2':
+            
+            display.value = Math.pow(display.value, 2)
+
+        break;
     }
 }
 
-    
+
 
 
